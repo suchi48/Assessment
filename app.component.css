@@ -1,0 +1,68 @@
+body {
+    background-color: palevioletred;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  .input-group {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 45%;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #999;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1d0e8e;
+  }
+  
+  .view-original {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
